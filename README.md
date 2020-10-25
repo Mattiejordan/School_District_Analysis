@@ -11,17 +11,33 @@ Results: Using bulleted lists and images of DataFrames as support, address the f
 
 How is the district summary affected?
 I find there are no differences on the district level from the original PyCitySchools analysis to the Challenge analysis with the Thomas High School 9th grade NaN errors removed from the math and reading grades. 
+![School_District_analysis_prior_NaN](School_District_analysis_prior_NaN.png)
+and School_District_analysis_with_NaN . 
+![School_District_analysis_with_NaN](School_District_analysis_with_NaN.png)
 
-see School_District_analysis_prior_NaN and School_District_analysis_with_NaN . 
 See minimal differences on the Charter level. The original values are 83.474 average math and 83.896 average reading and these are updated to 83.465 average math and 83.902 average reading scores. 
 
 How is the school summary affected?
+![PerSchoolSummaryOriginalNaN](PerSchoolSummaryOriginalNaN.png)
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+![TopBottomOriginal](TopBottomOriginal.png)
+##Thomas High school moves down the list from position 2 in the district down to position 8.
+![TopBottomNaN](TopBottomNaN.png)
+
 How does replacing the ninth-grade scores affect the following:
 Math and reading scores by grade
+![MathReadingScoresByGradeOriginal](MathReadingScoresByGradeOriginal.png)
+![MathReadingScoresByGradeNaN](MathReadingScoresByGradeNaN.png)
+
 Scores by school spending
+![Spendinig_by_bin_original](Spendinig_by_bin_original.png)
+![Spendinig_by_bin_withNaN](Spendinig_by_bin_withNaN.png)
+
 Scores by school size
+
 Scores by school type
+![School_District_analysis_prior_NaN](School_District_analysis_prior_NaN.png)
+![School_District_analysis_with_NaN](School_District_analysis_with_NaN.png)
 Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 
