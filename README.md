@@ -18,10 +18,15 @@ and School_District_analysis_with_NaN .
 See minimal differences on the Charter level. The original values are 83.474 average math and 83.896 average reading and these are updated to 83.465 average math and 83.902 average reading scores. 
 
 How is the school summary affected?
+
 ![PerSchoolSummaryOriginalNaN](PerSchoolSummaryOriginalNaN.png)
+
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
 ![TopBottomOriginal](TopBottomOriginal.png)
+
 ##Thomas High school moves down the list from position 2 in the district down to position 8.
+
 ![TopBottomNaN](TopBottomNaN.png)
 
 How does replacing the ninth-grade scores affect the following:
@@ -30,8 +35,8 @@ Math and reading scores by grade
 ![MathReadingScoresByGradeNaN](MathReadingScoresByGradeNaN.png)
 
 Scores by school spending
-![Spendinig_by_bin_original](Spendinig_by_bin_original.png)
-![Spendinig_by_bin_withNaN](Spendinig_by_bin_withNaN.png)
+![Spending_by_bin_original](Spending_by_bin_original.png)
+![Spending_by_bin_withNaN](Spending_by_bin_withNaN.png)
 
 Scores by school size
 
