@@ -12,7 +12,7 @@ I find there are no differences in the district type from the original PyCitySch
 
 ![School_District_analysis_with_NaN](School_District_analysis_with_NaN.png)
 
-See minimal differences on the Charter level. The original values are 83.474 average math and 83.896 average reading and these are updated to 83.465 average math and 83.902 average reading scores. The influence of the NaN values are seen mostly in the overall passing percentage. 
+See differences on the Charter level. The original values are 83.474 average math and 83.896 average reading and these are updated to 83.465 average math and 83.902 average reading scores. The influence of the NaN values are seen mostly in the overall passing percentage. 
 
 ## School Summary 
 
