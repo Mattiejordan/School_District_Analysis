@@ -22,23 +22,35 @@ How does replacing the ninth graders’ math and reading scores affect Thomas Hi
 
 
 
-## Thomas High school moves down the list from 2nd in the district down to position 8.
+## Thomas High school moves down the list from 2nd in the district to 8th.
 
 ![TopBottomOriginal](TopBottomOriginal.png)
 ![TopBottomNaN](TopBottomNaN.png)
+
 Note how the averages were very similar and the overall percentages took a hit without any ninth grade scores in the count. 
+
 ### How does replacing the ninth-grade scores affect the following:
+
 *Math and reading scores by grade*
+
 ![MathReadingScoresByGradeOriginal](MathReadingScoresByGradeOriginal.png)
 ![MathReadingScoresByGradeNaN](MathReadingScoresByGradeNaN.png)
+
 Note that only ninth grade is affected by this query in the Thomas High School. All other schools remain the same as well as other grades. Thomas High school's tenth, eleventh, and twelfth grades are untouched scores. It's ninth grade holds NaN's for reading and math. 
+
 ### Scores by school spending
+
 ![Spending_by_bin_original](Spending_by_bin_original.png)
 ![Spending_by_bin_withNaN](Spending_by_bin_withNaN.png)
+
 From these spending bin sizes we see how Thomas High school, seen in a previous chart of the $630-644 bin, remains in the same spending range. From this chart we see the greatest influence of their ninth grade NaN's by the drop in overall percentage passing score. 
+
 ### Scores by school size
+
 Thomas High School budget has remained the same for all 1635 students. Maria will use these updated results to send to the school board for them to evaluate changes in the school budget. 
+
 ### Scores by school type
+
 ![School_District_analysis_prior_NaN](School_District_analysis_prior_NaN.png)
 ![School_District_analysis_with_NaN](School_District_analysis_with_NaN.png)
 
